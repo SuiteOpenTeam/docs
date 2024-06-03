@@ -13,7 +13,7 @@ const versionMap = JSON.parse(VERSION_MAP)
 
 const common = async () => {
   return {
-    base,
+    base: '/docs/',
     outDir: `./.vitepress/dist${base}`,
     srcExclude: getSrcExclude(versionMap, CURRENT_LANG, langMap),
     appearance: false,
