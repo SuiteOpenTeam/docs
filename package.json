@@ -89,5 +89,5 @@
       "npx markdownlint"
     ]
   },
-  "packageManager": "pnpm@9.0.2"
+  "packageManager": "pnpm@8.6.0"
 }
