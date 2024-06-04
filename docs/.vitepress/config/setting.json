@@ -1,8 +1,8 @@
 {
-  "LATEST_VERSION": "v0.8",
+  "LATEST_VERSION": "v2.0",
   "websiteMap": { 
-    "en": "https://docs.greptime.com", 
-    "zh": "https://docs.greptime.cn"
+    "en": "https://suiteopenteam.github.io/docs/",
+    "zh": "https://suiteopenteam.github.io/docs/"
   },
   "langMap": [ "en", "zh" ]
 }

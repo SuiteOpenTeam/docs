@@ -1,0 +1,6 @@
+# 操作权限
+操作权限是针对对象数据的各种操作的权限控制，这些操作包括：新建、编辑、删除、复制、导入、导出、关闭、禁用、打印等。
+
+![](https://tcs-devops.aliyuncs.com/storage/113455a9dd2f4158f8057de28041b8f62e12?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTcxODA5NjI3NiwiaWF0IjoxNzE3NDkxNDc2LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMzQ1NWE5ZGQyZjQxNThmODA1N2RlMjgwNDFiOGY2MmUxMiJ9.Of4AKvcSW98ODc_SC1KlsMH_Xhg5nln6w5NRYatTsGo&download=image.png "")
+
+针对每个对象，每个角色都可以单独控制操作权限。

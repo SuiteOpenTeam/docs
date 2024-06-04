@@ -1,0 +1,42 @@
+# 数据导入导出
+
+## 数据导入
+
+菜单路径：系统设置-数据管理-数据导入。
+
+![](https://tcs-devops.aliyuncs.com/storage/1134d28ede23df7716bab79427417b93b474?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTcxODA5NDQ5MywiaWF0IjoxNzE3NDg5NjkzLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMzRkMjhlZGUyM2RmNzcxNmJhYjc5NDI3NDE3YjkzYjQ3NCJ9.aOpHkiIW-6kO2J5TcQm6him_z5ANhgYw3Hr9D1vbnjg&download=image.png "")
+
+1. 选择对象类型；
+
+1. 选择操作类型：新增、更新、新增或更新；
+
+1. 选择是否有合并编辑，关于合并编辑，请参考；
+
+1. 可以下载导入模板，通过模板整理数据；
+
+1. 上传整理好的Excel表格。注意，如果是更新数据，必填填写数据的recordId。
+
+![](https://tcs-devops.aliyuncs.com/storage/11346115990ccc754fec39672a17bcd6a620?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTcxODA5NDQ5MywiaWF0IjoxNzE3NDg5NjkzLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMzQ2MTE1OTkwY2NjNzU0ZmVjMzk2NzJhMTdiY2Q2YTYyMCJ9.56j277hFq9HDEmBas87i4-XLqc7plJqWMWrO77T7YZo&download=image.png "")
+
+1. 选择映射字段，将Excel表格的字段与对象中的字段进行匹配。
+
+1. 点击提交，系统会在后台执行导入，并将导入结果以邮件的形式发送到导入者的邮箱。
+
+![](https://tcs-devops.aliyuncs.com/storage/113462f7e192d8ffa504fecf75821c03e4c5?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTcxODA5NDQ5MywiaWF0IjoxNzE3NDg5NjkzLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMzQ2MmY3ZTE5MmQ4ZmZhNTA0ZmVjZjc1ODIxYzAzZTRjNSJ9.5u8k9M-ivcp2NPVxNER8Ok75NMDxVMcvxIu_SGWqQIA&download=image.png "")
+
+1. 在系统设置-数据管理-导入记录中，可查看本次或过往的导入结果。
+
+![](https://tcs-devops.aliyuncs.com/storage/1134458bd50728f854f3af38aa0ee70134fe?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTcxODA5NDQ5MywiaWF0IjoxNzE3NDg5NjkzLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMzQ0NThiZDUwNzI4Zjg1NGYzYWYzOGFhMGVlNzAxMzRmZSJ9.DNCKOO-YMGA_7I-M_3XIRSv6DbWu3ZU_puKLFHrivEg&download=image.png "")
+
+
+
+## 数据导出
+
+在视图表格数据的批量操作下拉框中点击导出，将会把本视图（包括筛选条件）的结果（字段、数据）导出的Excel表格中。
+
+当数据大于20000条时，会以邮件的形式发送到导出者的邮箱，否则会直接返回文件在浏览器下载。
+
+在系统设置-数据管理-导出记录中，可查看本次或过往的导出结果。
+
+
+

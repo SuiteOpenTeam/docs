@@ -1,0 +1,66 @@
+Getting-Started: 快速开始
+Installation: 安装
+Quick-Start: 快速开始
+User-Guide: 使用指南
+Concepts: 概念
+Clients: 客户端
+Client-Libraries: 客户端库
+Write-Data: 写入数据
+Query-Data: 读取数据
+Continuous-Aggregation: 持续聚合
+Python-Scripts: Python 脚本
+Operations: 运维操作
+Prometheus: Prometheus
+Contributor-Guide: 贡献者指南
+Tests: 测试
+How-To: 指南
+Biweekly-Reports: Biweekly-Reports
+GreptimeCloud: 云服务
+Tutorials: 教程
+Monitor-Host-Metrics: 监控 Host Metrics
+Migrate-to-GreptimeDB: 迁移到 GreptimeDB
+Migrate-to-GreptimeCloud: 迁移到 GreptimeCloud
+Integrations: 集成
+Usage-&-Billing: 用量及费用
+Frontend: Frontend
+Datanode: Datanode
+Flownode: Flownode
+Metasrv: Metasrv
+Reference: Reference
+Admin: 管理
+Administration: 管理
+back-up-&-restore-data: 备份和恢复
+SDK: SDK
+SQL: SQL
+Config: 配置
+Field: 字段
+Custom-Script: 自定义脚本
+Custom-Object: 自定义对象
+Object: 对象
+View: 视图
+Form: 表单
+Manage-Custom-Script: 管理自定义脚本
+Button-Event-Script: 按钮事件脚本
+Record-Event-Script: CustomRecord生命周期脚本
+Restlet-Script: Http端点脚本
+Schedule-Script: 定时任务脚本
+Utility-Script: 常量脚本
+Role-Permission: 角色和权限
+User-Manage: 用户管理
+Rule-Manage: 角色管理
+Department-Manage: 部门管理
+Menu-Manage: 菜单管理
+Form-And-View: 表单和视图
+Menu-Permission: 菜单权限
+Operate-Permission: 操作权限
+Data-Permission: 数据权限
+Config-Manage: 配置管理
+Custom-Dict: 自定义词典
+Import-And-Export: 数据导入导出
+Locale-Config: 多语言配置
+Print-Template: 打印模板配置
+Developer-Guide: 开发者指南
+Observability: 可观测性
+custom-otel-collector: 自定义OpenTelemetry Collector
+Mongo-Transaction: Mongodb事务
+API-Reference: API参考

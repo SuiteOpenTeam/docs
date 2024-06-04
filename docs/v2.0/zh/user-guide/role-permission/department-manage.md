@@ -1,0 +1,8 @@
+# 部门管理
+在系统设置-用户和权限-部门管理中配置部门。
+
+![](https://tcs-devops.aliyuncs.com/storage/1134c3dfbc3b7035c3d7bbcf22a9a89b32a5?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTcxODA5NjE4NSwiaWF0IjoxNzE3NDkxMzg1LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMzRjM2RmYmMzYjcwMzVjM2Q3YmJjZjIyYTlhODliMzJhNSJ9.F-0x-g3uNNRTUbHrUoB6Fs-Yg1KZ9N_PE9QYmVyeSMU&download=image.png "")
+
+部门按照上下级形成部门树。
+
+部门及用户是数据权限的基础，每个用户必须分配到一个部门上。

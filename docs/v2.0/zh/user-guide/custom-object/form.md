@@ -1,0 +1,41 @@
+***
+# 表单
+
+在SuiteBoot中，表单组织了字段在页面的呈现方式，包括：字段显示顺序、必填、只读、隐藏等。
+在对象的表单Tab下新建表单，对象创建后，系统会创建一个默认的表单。
+
+***
+
+![](https://tcs-devops.aliyuncs.com/storage/1134ccea7f6a5749058ddf8f07666c4b236a?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTcxODA5Mjg1NywiaWF0IjoxNzE3NDg4MDU3LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMzRjY2VhN2Y2YTU3NDkwNThkZGY4ZjA3NjY2YzRiMjM2YSJ9.-aE8F6furDOnS6msKPQABUA9WweaqaK8yC2c4YuUxqI&download=image.png "")
+
+拖拽左侧的字段进入中间的编辑区将字段加入表单中，在编辑区可以拖拽调整字段顺序。
+
+分割线代表了一个字段分组。
+
+在编辑区点击某个字段，右侧显示了可设置的字段属性，包括是否必填，以及分别在新建/编辑/详情展示下的正常/只读/隐藏属性。例如，创建时间字段是由系统自动赋值，因此在新建的场景下，我们不希望看到这个字段，即可以在新建下隐藏，但在详情场景下正常展示。
+
+# 表单页签
+
+***
+
+在SuiteBoot中，对象在前端页面的展现方式是固定的，打开某一个对象数据，会按照该数据对应表单的设置样式呈现，在页面下方会有各种页签，对象创建后，系统会自动创建四个页签，System Notes、User Notes，流程动态，关联单据。
+
+![](https://tcs-devops.aliyuncs.com/storage/1134a030f6259772bee0f45bef301b536f45?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTcxODA5Mjg1NywiaWF0IjoxNzE3NDg4MDU3LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMzRhMDMwZjYyNTk3NzJiZWUwZjQ1YmVmMzAxYjUzNmY0NSJ9.Nsgt0H57PPIu9QFiRdYLwGIgUk-mnpSOwTlv9Nk5gHM&download=image.png "")
+
+System Notes：记录操作日志。
+
+![](https://tcs-devops.aliyuncs.com/storage/1134664d08ecd0482710ea9868ef4805427b?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTcxODA5Mjg1NywiaWF0IjoxNzE3NDg4MDU3LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMzQ2NjRkMDhlY2QwNDgyNzEwZWE5ODY4ZWY0ODA1NDI3YiJ9.decTGLgxInkRQ-8q38Q0wdOpakg8ERI2IwxeTFiM7Cw&download=image.png "")
+
+User Notes：用户对该数据的备忘信息，由用户自己创建，支持上传附件。
+
+![](https://tcs-devops.aliyuncs.com/storage/113454ea16fe09cdf7229b25eb3d9d890616?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTcxODA5Mjg1NywiaWF0IjoxNzE3NDg4MDU3LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMzQ1NGVhMTZmZTA5Y2RmNzIyOWIyNWViM2Q5ZDg5MDYxNiJ9.sH3Rn_f-zkd-RQVVzpwU2aRSSW2AAx2Hco-DTQvy7yo&download=image.png "")
+
+流程动态：
+
+关联单据：
+
+在字段一节中提到过，对于建立了主子明细关系的两个对象，系统会自动在主表的表单下创建一个tab。
+
+![](https://tcs-devops.aliyuncs.com/storage/11343dd6a0f5ecbdb05238cfc4f0a1e91c11?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTcxODA5Mjg1NywiaWF0IjoxNzE3NDg4MDU3LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMzQzZGQ2YTBmNWVjYmRiMDUyMzhjZmM0ZjBhMWU5MWMxMSJ9.N8eNOU9uCRCNsaGRhcRGBV1XNkDqAQE9ga0h5vT88Ds&download=image.png "")
+
+因此，在表单的标签页设置中，可以对这些页签进行设置，包括显示隐藏、页签名称、关联视图。

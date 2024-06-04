@@ -5,7 +5,7 @@ import { replaceVariate } from './plugins'
 
 const { LATEST_VERSION, langMap, websiteMap } = settingConfig
 const { ENV, VERSION = LATEST_VERSION, VERSION_MAP, BASE: base = '/' } = process.env
-const CURRENT_LANG = dotenv.config().parsed?.VITE_LANG || 'en'
+const CURRENT_LANG = dotenv.config().parsed?.VITE_LANG || 'zh'
 const CURRENT_VERSION = dotenv.config().parsed?.VITE_VERSION || VERSION
 
 const versionPath = `${CURRENT_VERSION}/${CURRENT_LANG}/:path+`
@@ -43,20 +43,19 @@ const common = async () => {
           }
         }
       },
-      siteTitle: '',
       sidebar: {
         '/': await makeSidebar(CURRENT_LANG, CURRENT_VERSION),
       },
-      logo: '/logo-text-tinted.png',
+      // logo: '/logo-text-tinted.png',
       copyright: '©Copyright 2022 Greptime Inc. All Rights Reserved',
-      email: 'marketing@greptime.com',
+      email: 'm17793873123@163.com',
       editLink: {
-        pattern: 'https://github.com/GreptimeTeam/docs/blob/main/docs/:path',
+        pattern: 'https://github.com/SuiteOpenTeam/docs/blob/main/docs/:path',
       },
       socialLinks: [
         {
           icon: 'github',
-          link: 'https://github.com/GreptimeTeam/docs',
+          link: 'https://github.com/SuiteOpenTeam/docs',
         },
       ],
       outline: [2, 4],

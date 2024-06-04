@@ -55,10 +55,6 @@ export const enConfig = async () => ({
         icon: 'docsUserGuide',
       },
       {
-        key: 'GreptimeCloud',
-        icon: 'greptimeCloud',
-      },
-      {
         key: 'Developer Guide',
         icon: 'developerGuide',
       },

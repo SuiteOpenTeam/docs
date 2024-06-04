@@ -2,8 +2,8 @@ import { CURRENT_VERSION, websiteMap, base } from './common'
 import { getVersionList } from '../theme/serverUtils'
 
 export const zhConfig = async () => ({
-  title: 'Greptime 文档',
-  description: 'Greptime: 分布式、云原生、融合时序和分析为一体的时序数据实时处理平台',
+  title: 'SuiteOpen 文档',
+  description: '',
   head: [
     ['script', { src: 'https://lf1-cdn-tos.bytegoofy.com/obj/iconpark/icons_19361_2.c3035490ebb16aa315f724f1eccdddde.js' }],
     ['link', { rel: 'stylesheet', href: '//at.alicdn.com/t/c/font_3652459_85jeka7sbox.css' }],
@@ -58,11 +58,11 @@ export const zhConfig = async () => ({
     nav: [
       {
         text: '主页',
-        link: 'https://greptime.cn/',
+        link: 'https://suiteopenteam.github.io/docs/',
       },
       {
         text: '博客',
-        link: 'https://greptime.com/blogs',
+        link: 'https://suiteopenteam.github.io/docs/',
       },
       {
         text: `${CURRENT_VERSION}`,
@@ -71,16 +71,12 @@ export const zhConfig = async () => ({
     ],
     iconMap: [
       {
-        key: '立即开始',
+        key: '快速开始',
         icon: 'gettingStarted',
       },
       {
-        key: '用户指南',
+        key: '使用指南',
         icon: 'docsUserGuide',
-      },
-      {
-        key: '云服务',
-        icon: 'greptimeCloud',
       },
       {
         key: '开发者指南',
@@ -96,7 +92,7 @@ export const zhConfig = async () => ({
       },
     ],
     editLink: {
-      pattern: 'https://github.com/GreptimeTeam/docs/blob/main/docs/:path',
+      pattern: 'https://github.com/SuiteOpenTeam/docs/blob/main/docs/:path',
       text: '在 GitHub 上编辑此页',
     },
     lastUpdatedText: '上次更新',

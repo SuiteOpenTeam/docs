@@ -1,0 +1,8 @@
+# 菜单权限
+通过配置角色能看到哪些菜单来控制角色的功能权限。
+
+![](https://tcs-devops.aliyuncs.com/storage/1134b4a5d5637fa87a42cd9e0b5de94781cf?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTcxODA5NjE3NiwiaWF0IjoxNzE3NDkxMzc2LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMzRiNGE1ZDU2MzdmYTg3YTQyY2Q5ZTBiNWRlOTQ3ODFjZiJ9.aDHfXli6382beboYlp6FMjqtE27FlUBORrqjRdgXw7U&download=image.png "")
+
+在菜单树中勾选菜单来配置角色的菜单权限。
+
+保存后，该角色的下的用户无需重新登录，只需刷新页面，即可更新最新的菜单列表。

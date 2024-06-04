@@ -1,5 +1,5 @@
 {
-  "name": "greptime_docs",
+  "name": "suiteopen_docs",
   "description": "Docs of SuiteOpen",
   "version": "1.0.0",
   "private": true,
@@ -78,12 +78,12 @@
     "type": "git",
     "url": "git+https://github.com/SuiteOpenTeam/docs.git"
   },
-  "author": "",
+  "author": "SuiteOpenTeam",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/GrepTimeTeam/docs/issues"
+    "url": "https://github.com/SuiteOpenTeam/docs/issues"
   },
-  "homepage": "https://github.com/GrepTimeTeam/docs#readme",
+  "homepage": "https://suiteopenteam.github.io/docs/",
   "lint-staged": {
     "*.md": [
       "npx markdownlint"

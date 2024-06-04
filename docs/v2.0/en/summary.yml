@@ -1,0 +1,46 @@
+- Getting-Started:
+  - config
+  - install
+- User-Guide:
+    - Custom-Object:
+        - object
+        - field
+        - form
+        - view
+    - Custom-Script:
+        - manage-custom-script
+        - button-event-script
+        - record-event-script
+        - restlet-script
+        - schedule-script
+        - utility-script
+    - Role-Permission:
+        - user-manage
+        - rule-manage
+        - department-manage
+        - menu-manage
+        - form-and-view
+        - menu-permission
+        - operate-permission
+        - data-permission
+    - config-manage
+    - custom-dict
+    - import-and-export
+    - locale-config
+    - print-template
+- Developer-Guide:
+    - Observability:
+        - observability-support
+        - observability-start
+        - observability-extension
+        - custom-otel-collector
+    - Mongo-Transaction:
+        - mongo-multi-tx-observability
+        - mongo-multi-tx-support
+        - mongo-tools
+        - mongo-tx-capability
+    - API-Reference:
+        - customrecord-api
+        - distribute-lock-api
+        - oss-file-api
+        - script-api

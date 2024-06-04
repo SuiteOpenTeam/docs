@@ -3,7 +3,7 @@ import { execSync } from 'node:child_process'
 ;(async () => {
   const files = fs.readdirSync('./docs')
   const versionMap = files.filter(file => file.match(/v\d\.\d/))
-  versionMap.push('nightly')
+  // versionMap.push('nightly')
   for (let i = versionMap.length; i >= 0; i--) {
     // Retrieve command-line arguments, excluding the first two default arguments (Node.js path and script path).
     const additionalArgs = process.argv.slice(2)
